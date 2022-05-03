@@ -1,0 +1,26 @@
+                 _              _                         _ _       _
+   ___ _ __ ___ | | __      ___(_)___  ___ ___         __| (_) __ _| |      _ __   ___  ___ _ __
+  / __| '_ ` _ \| |/ /____ / __| / __|/ __/ _ \ _____ / _` | |/ _` | |_____| '_ \ / _ \/ _ \ '__|
+ | (__| | | | | |   <_____| (__| \__ \ (_| (_) |_____| (_| | | (_| | |_____| |_) |  __/  __/ |
+  \___|_| |_| |_|_|\_\     \___|_|___/\___\___/       \__,_|_|\__,_|_|     | .__/ \___|\___|_|
+                                                                           |_|
+   Check-MK plugin for monitoring Cisco Dial Peers
+
+   Copyright (C) 2022  Václav Ovsík <vaclav.ovsik@gmail.com>
+
+   This program is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+---------------------------------------------------------------------------
+
+   For Check_MK see https://checkmk.com/

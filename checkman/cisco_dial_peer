@@ -1,0 +1,17 @@
+title: Cisco Dial Peer
+agents: snmp
+catalog: hw/network/cisco
+license: GPL
+distribution: none
+author: Václav Ovsík <vaclav.ovsik@seznam.cz>
+description:
+ This check monitors the state of voice dial peers configured.
+ The status of the dial peer is checked and can be {active} OK,
+ {not in service} CRIT, {not ready} CRIT.
+ The levels can be configured for the number of incoming and outgoing
+ calls. The default levels are 50 (WARN) and 60 (CRIT).
+
+ The check uses the SNMP OID {CISCO-VOICE-DIAL-CONTROL-MIB::ciscoVoiceDialControlMIB}.
+
+inventory:
+ One service is created for every dial peer in state {active}.
